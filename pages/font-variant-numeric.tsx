@@ -1,8 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/FontVariantNumeric.module.css'
 
 const Home: NextPage = () => {
   return (
@@ -15,12 +14,8 @@ const Home: NextPage = () => {
 
       <main className="main">
         <h1 className={styles.title}>
-          Play with fonts
+          font-variant-numeric
         </h1>
-
-        <p className={styles.description}>
-          By Clarke Verdel
-        </p>
 
         {/* TODO: Make select box that changes fonts for user? */}
         {/* <p>
@@ -33,26 +28,13 @@ const Home: NextPage = () => {
 
         <div className={`grid`}>
           <div className={`card`}>
-            <Link href="/font-variant-numeric">
+            <Link href="/font-variant-numeric/tabular-nums">
               <a>
-                <h2>font-variant-numeric</h2>
-                <p>See how playing with font-variant-numeric can inspire you.</p>
+                <h2>font-variant-numeric: <u>tabular-nums</u></h2>
+                <p>Tabular numbers that can help your typography display improve.</p>
               </a>
             </Link>
           </div>
-
-          <a href="#" className={`card card--disabled`}>
-            <h2>Font masks</h2>
-            <p>..</p>
-          </a>
-
-          <a
-            href="#"
-            className={`card card--disabled`}
-          >
-            <h2>Typography combos</h2>
-            <p>...</p>
-          </a>
         </div>
       </main>
     </div>
