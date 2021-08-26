@@ -205,10 +205,10 @@ const Home: NextPage = () => {
                                 <span>€234 6</span>
                             </td>
                             <td>
-                                <span font="number" color="error">€2345+7</span>
+                                <span>€2345+7</span>
                             </td>
                             <td>
-                                <span font="number" color="error">€23456-8</span>
+                                <span>€23456-8</span>
                             </td>
                             <td>
                                 <span>€23 = 4.9</span>
