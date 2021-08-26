@@ -4,6 +4,7 @@
   --text-color-inverted: var(--background-color);
   --highlight-color: hsl(212, 100%, 48%);
   --disabled-color: hsl(0, 0%, 50%);
+  --font-weight-bold: 700;
 }
 
 html,
@@ -15,7 +16,7 @@ body {
 }
 
 a {
-  color: var(--highlight-color);
+  color: inherit;
   text-decoration: none;
 }
 
@@ -58,6 +59,10 @@ code {
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+code a {
+  color: var(--highlight-color);
 }
 
 /** FONT FACES **/
